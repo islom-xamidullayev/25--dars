@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1220px;
+  margin: auto;
+}
+
+.icecream,
+.moutain {
+  background: #293462;
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper {
+  padding-top: 200px;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.icecream__crem {
+  width: 200px;
+  height: 300px;
+  background-color: #fff1c1;
+  border-radius: 100px 100px 20px 20px;
+}
+.icecream__shadow {
+  width: 40px;
+  height: 20px;
+  background-color: #a64942;
+}
+
+.icecream__stick {
+  width: 40px;
+  height: 100px;
+  background-color: #fe5f55;
+  border-radius: 0 0 7px 7px;
+}
+
+.moutain__circle {
+  border-radius: 50%;
+  background-color: #fff1c1;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 2.6s ease;
+}
+.moutain__circle:hover {
+  transform: rotate(180deg);
+}
+.moutain__item {
+  background: #fe5f55;
+  width: 200px;
+  height: 200px;
+  transform: rotate(40deg);
+  position: absolute;
+  bottom: -20px;
+  right: -25px;
+}
+.moutain__item:first-child {
+  bottom: -20px;
+  right: -25px;
+}
+
+.moutain__item:last-child {
+  bottom: -126px;
+  right: 130px;
+}
+.stair,
+.call,
+.sunset {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(39, 37, 37);
+}
+.door {
+  width: 200px;
+  height: 300px;
+  border-radius: 150px 150px 0 0;
+  background-color: #4f77ff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.door__item {
+  width: 25%;
+  height: 40px;
+  background-color: #191919;
+}
+
+.door__item:nth-child(2) {
+  width: 50%;
+}
+.door__item:nth-child(3) {
+  width: 65%;
+}
+.door__item:nth-child(4) {
+  width: 80%;
+}
+
+.qatar {
+  background-color: #f2f2f2;
+  height: 500px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.qatar__flag {
+  width: 450px;
+  height: 300px;
+  background-color: #da291c;
+  overflow: hidden;
+  position: relative;
+}
+.qatar__flag__item {
+  background-color: #fff;
+
+  width: 39%;
+  height: 133px;
+  transform: rotate(140deg);
+  position: absolute;
+  bottom: 197px;
+  right: 308px;
+}
+
+.qatar__flag__item:nth-child(2) {
+  bottom: 148px;
+  right: 308px;
+}
+.qatar__flag__item:nth-child(3) {
+  bottom: 98px;
+  right: 308px;
+}
+.qatar__flag__item:nth-child(4) {
+  bottom: 49px;
+}
+.qatar__flag__item:nth-child(5) {
+  bottom: 0px;
+}
+.qatar__flag__item:nth-child(6) {
+  bottom: -49px;
+}
+.call__list {
+  position: relative;
+}
+.call__item1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #f2ad43;
+  margin-left: 73px;
+  position: absolute;
+  z-index: 1;
+}
+
+.call__item2 {
+  background-color: #e08027;
+  width: 300px;
+  height: 320px;
+  border-radius: 150px 150px 25px 25px;
+  position: absolute;
+  z-index: 4;
+  margin-top: 56px;
+}
+.call__item3 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #824b20;
+  margin-left: 73px;
+  margin-top: 290px;
+}
+
+.sunset__list {
+  width: 200px;
+  height: 300px;
+  background: #f2ad43;
+  border-radius: 100px 100px 20px 20px;
+  overflow: hidden;
+  position: relative;
+
+}
+.sunset__list__item1 {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #FFF58F;
+  margin-left: 60px;
+  margin-top: 12
+  0px;
+
+}
+
+.sunset__list__item2 {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background-color: #E08027;
+  right: 80px;
+  bottom: -100px;
+  position: absolute;
+}
+
+.sunset__list__item3 {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background-color: #824B20;
+  left: 80px;
+  bottom: -100px;
+  position: absolute;
+
+}
+.element {
+  background-color: #6592CF;
+  height: 80vh;
+}
+.element__ws {
+  background-color: #243D83;
+  width: 560px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.element__border {
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+  border: 90px #6592CF solid;
+  display: block;
+  margin: auto;
+  position: absolute;
+  bottom: -90px;
+  left: 52px;
+
+}
+
+.element__circle {
+  background-color: #EEB850;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 80px;
+}
